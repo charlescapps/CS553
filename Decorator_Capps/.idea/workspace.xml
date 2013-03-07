@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ef938ec-8394-4620-8be0-1c3ef3e289f2" name="Default" comment="" />
+    <list default="true" id="0ef938ec-8394-4620-8be0-1c3ef3e289f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java" afterPath="$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="Composite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AbstractComposite.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359059215987" ignored="false" />
@@ -12,12 +15,12 @@
     <file path="/While.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359317890662" ignored="false" />
     <file path="/Compound.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359317513659" ignored="false" />
     <file path="/Var.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359318951339" ignored="false" />
-    <file path="/pom.xml" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361469475677" ignored="false" />
+    <file path="/pom.xml" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361903360384" ignored="false" />
     <file path="/ComponentIF.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359060156116" ignored="false" />
     <file path="/Statement.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359317463911" ignored="false" />
     <file path="/Main.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359319188300" ignored="false" />
-    <file path="/fragment.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361468045802" ignored="false" />
-    <file path="/Dummy.txt" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361656334237" ignored="false" />
+    <file path="/fragment.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361903366656" ignored="false" />
+    <file path="/Dummy.txt" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361902703280" ignored="false" />
     <file path="/Operation.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359313218508" ignored="false" />
     <file path="/Op.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359313881258" ignored="false" />
     <file path="/OP.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359313875354" ignored="false" />
@@ -42,7 +45,7 @@
     <file path="/ParseException.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359480794258" ignored="false" />
     <file path="/NumberToken.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359482501630" ignored="false" />
     <file path="/cfg.txt" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359494992998" ignored="false" />
-    <file path="/ParseSimpleMain.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359485554511" ignored="false" />
+    <file path="/ParseSimpleMain.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361903844487" ignored="false" />
     <file path="/NumberExpr.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1359493726528" ignored="false" />
     <file path="/ExprTimer.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361309683857" ignored="false" />
     <file path="/DecoratorMain.java" changelist="0ef938ec-8394-4620-8be0-1c3ef3e289f2" time="1361471383353" ignored="false" />
@@ -64,6 +67,22 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/capps/interpreter/LexerTestMain.java" line="21" class="capps.interpreter.LexerTestMain" package="capps.interpreter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -98,22 +117,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/capps/interpreter/LexerTestMain.java" line="21" class="capps.interpreter.LexerTestMain" package="capps.interpreter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -152,10 +155,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecoratorMain.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DecoratorMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/DecoratorMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="28" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.5532787">
+            <state line="59" column="28" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterpretMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/InterpretMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseSimpleMain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="32" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.5833333">
               <folding />
             </state>
           </provider>
@@ -164,7 +185,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="42" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
+            <state line="33" column="15" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/expr/OperationExpr.java" />
         <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/parser/cfg.txt" />
         <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/expr/LiteralNumeric.java" />
@@ -237,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/decorator/AbstractExprWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/DecoratorMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java" />
       </list>
     </option>
   </component>
@@ -302,7 +323,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -433,6 +453,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -445,16 +466,16 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Composite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -463,7 +484,7 @@
       <recent name="capps.interpreter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorMain">
+  <component name="RunManager" selected="Application.ParseSimpleMain">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -499,6 +520,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -524,19 +558,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -768,9 +789,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="846" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2625538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26330936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -778,16 +799,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966322" sideWeight="0.6057554" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20207255" sideWeight="0.7374462" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20207255" sideWeight="0.6719425" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4866785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -860,18 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/expr/OperationExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="58" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/expr/NumberExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/parser/LittleLangParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="14" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" />
@@ -913,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/decorator/ExprCacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="11" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
@@ -955,9 +957,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/InterpretMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/DecoratorMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="28" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.5532787">
+        <state line="59" column="28" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="15" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capps/interpreter/ParseSimpleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="32" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.5833333">
           <folding />
         </state>
       </provider>

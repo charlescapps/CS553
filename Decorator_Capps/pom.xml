@@ -34,7 +34,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>capps.interpreter.DecoratorMain</mainClass>
+                    <mainClass>capps.interpreter.ParseSimpleMain</mainClass>
                     <arguments>
                         <argument></argument>
                     </arguments>
